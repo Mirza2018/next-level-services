@@ -8,7 +8,7 @@ const Service = ({service}) => {
     return (
         <div  className="card bg-base-100 w-96 shadow-xl">
   <figure>
-    <Image style={{ aspectRatio: 3/2 }}  className='object-contain' src={image} alt={name} width={400} height={400}   />
+    <Image loading="lazy" style={{ aspectRatio: 3/2 }}  className='object-contain' src={image} alt={name} width={400} height={400}   />
     {/* <img
       src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
       alt="Shoes" /> */}
