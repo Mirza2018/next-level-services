@@ -1,0 +1,681 @@
+[
+    {
+        "name":"Emergency Plumbing Repair",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAjk2AT-VSnr_lGW-AiP9dFV86KPBXG0DPgQ&s",
+        "price":2500,
+        "category":"Plumbing Services"
+    },
+    {
+        "name":"Leak Detection and Repair",
+        "image":"https://d12oja0ew7x0i8.cloudfront.net/images/Article_Images/ImageForArticle_20136_161431795081616.jpg",
+        "price":2500,
+        "category":"Plumbing Services"
+    },
+    {
+        "name":"Drain Cleaning Services",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV_zm2h4A7ZtTHd8atCgFTrTWAZZSCJ3wmkg&s",
+        "price":2500,
+        "category":"Plumbing Services"
+    },
+    {
+        "name":"Water Heater Installation and Repair",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmeCSa_Gi1bczuRkqC3lRbzVWOQfUYhS-XoA&s",
+        "price":2500,
+        "category":"Plumbing Services"
+    },
+    {
+        "name":"Pipe Repair and Replacement",
+        "image":"https://dlczb9lfz9r73.cloudfront.net/wp-content/uploads/2022/05/29230644/AdobeStock_219747651.0-scaled.jpeg",
+        "price":2500,
+        "category":"Plumbing Services"
+    },
+    {
+        "name":"Sewer Line Services",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZTGMYhYlNoiAKe2of3y8sA2hcCGqg7uBbPA&s",
+        "price":2500,
+        "category":"Plumbing Services"
+    },
+    {
+        "name":"Faucet and Fixture Installation",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLtStac6oBcZnFaw6Ry9pNanBFLnKSAib_QA&s",
+        "price":2500,
+        "category":"Plumbing Services"
+    },
+    {
+        "name":"Bathroom and Kitchen Plumbing Renovations",
+        "image":"https://emberplumbingperth.com.au/wp-content/uploads/2022/06/Kitchen-Bathroom-Renovations-Ember.jpg",
+        "price":2500,
+        "category":"Plumbing Services"
+    },
+    {
+        "name":"Hydro Jetting Services",
+        "image":"https://www.greaserescue.com/wp-content/uploads/2019/01/waterjet-lancing.jpg",
+        "price":2500,
+        "category":"Plumbing Services"
+    },
+    {
+        "name":"Backflow Prevention and Testing",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUGdAjf8_g89Kc6-yopGQDzt8HSgf5kKpzig&s",
+        "price":2500,
+        "category":"Plumbing Services"
+    },
+    {
+        "name":"On-Page SEO Optimization",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmD03O3MxaEQfebVu5MXu_zoHApIFdoQaqmQ&s",
+        "price":2500,
+        "category":"SEO Services"
+    },
+    {
+        "name":"Technical SEO Audits",
+        "image":"https://duws858oznvmq.cloudfront.net/technical_seo_audits_280b9e426f.webp",
+        "price":2500,
+        "category":"SEO Services"
+    },
+    {
+        "name":"Keyword Research and Analysis",
+        "image":"https://www.topyougo.com/wp-content/uploads/2017/01/Importance-Of-Keyword-Research-Analysis-In-SEO-Marketing-1.png",
+        "price":2500,
+        "category":"SEO Services"
+    },
+    {
+        "name":"Link Building Services",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYj9yCqfS2hR1HI2KgcPSoBozXHXoU6xGNcg&s",
+        "price":2500,
+        "category":"SEO Services"
+    },
+    {
+        "name":"Content Creation and Optimization",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkqPWmyGVOOMBI85gvHWgezAm0s5ukKY9Ltw&s",
+        "price":2500,
+        "category":"SEO Services"
+    },
+    {
+        "name":"Local SEO Services",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThaWE3CqiXGb6aqvccMEIHYDieRYEdkUq0iA&s",
+        "price":2500,
+        "category":"SEO Services"
+    },
+    {
+        "name":"E-commerce SEO",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrIjRBISruHZdV7AuMRZ4NTdfnGI-N0doS7A&s",
+        "price":2500,
+        "category":"SEO Services"
+    },
+    {
+        "name":"SEO Consulting",
+        "image":"https://media.licdn.com/dms/image/D5612AQEjNdsnstmePw/article-cover_image-shrink_600_2000/0/1708863423525?e=2147483647&v=beta&t=W0xhMl_dTEUvGYU802V_y5GP7hLMIb_JFceclBwiud4",
+        "price":2500,
+        "category":"SEO Services"
+    },
+    {
+        "name":"SEO Strategy Development",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzLAg4tv0rJSscAZX0T3O4Ng1XYuDXycHjxVhjWQ88QW_1Ia_jdgz67w5gtYy-1Ht76L4&usqp=CAU",
+        "price":2500,
+        "category":"SEO Services"
+    },
+    {
+        "name":"Competitor Analysis",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEjp2QDycg-yA9bfjHE8A9MsMZoWfg-gVzjQ&s",
+        "price":2500,
+        "category":"SEO Services"
+    },
+    {
+        "name":"SEO Copywriting",
+        "image":"https://i0.wp.com/word-wizardry.com/wp-content/uploads/2021/01/copy-of-blog-header-image.png?fit=1024%2C576&ssl=1",
+        "price":2500,
+        "category":"SEO Services"
+    },
+    {
+        "name":"SEO Reporting and Analytics",
+        "image":"https://cdn.prod.website-files.com/65bd4cd0ea7dc98c12446765/65e3189d8aa7b3b27a1ad778_SEO.webp",
+        "price":2500,
+        "category":"SEO Services"
+    },
+    {
+        "name":"Mobile SEO Optimization",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE7bZ2EM6Cjdg_IBZtU7zV451Zf-KlLDQ6wg&s",
+        "price":2500,
+        "category":"SEO Services"
+    },
+    {
+        "name":"Voice Search Optimization",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiDStOlKWnHO85pyGM4YH5k1FOxH1vOVqoIw&s",
+        "price":2500,
+        "category":"SEO Services"
+    },
+    {
+        "name":"SEO for Startups",
+        "image":"https://seowind.io/wp-content/uploads/2024/01/SEO_for_Startups.png",
+        "price":2500,
+        "category":"SEO Services"
+    },
+    {
+        "name":"Residential Electrical Services",
+        "image":"https://www.cascobayelectric.com/wp-content/uploads/2023/06/residential-electrical-service.jpg",
+        "price":2500,
+        "category":"Electrical Services"
+    },
+    {
+        "name":"Commercial Electrical Services",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCwL00bxMfdjaQnGI-40g2ynbrLHGqXR4gMQ&s",
+        "price":2500,
+        "category":"Electrical Services"
+    },
+    {
+        "name":"Emergency Electrical Repairs",
+        "image":"https://www.dalconelectric.com/wp-content/uploads/2022/06/emergency-electrical-services.jpg",
+        "price":2500,
+        "category":"Electrical Services"
+    },
+    {
+        "name":"Electrical Panel Upgrades",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO9IL1hRZ4I4L1s9Lf4rAmqOh8DOj1cxnYJQ&s",
+        "price":2500,
+        "category":"Electrical Services"
+    },
+    {
+        "name":"Wiring and Rewiring Services",
+        "image":"https://www.lumelect.com/wp-content/uploads/wiring-rewiring-services.jpg",
+        "price":2500,
+        "category":"Electrical Services"
+    },
+    {
+        "name":"Lighting Installation and Repair",
+        "image":"https://res.cloudinary.com/liaison-inc/image/upload/c_fit,f_auto,q_auto,w_1200/services/homeguide/backgrounds/lighting-fixture-repair.jpg",
+        "price":2500,
+        "category":"Electrical Services"
+    },
+    {
+        "name":"Ceiling Fan Installation",
+        "image":"https://justcallheritage.com/wp-content/uploads/2022/03/Ceiling-Fan-Installation-repair.jpg",
+        "price":2500,
+        "category":"Electrical Services"
+    },
+    {
+        "name":"Electrical Safety Inspections",
+        "image":"https://voltacompliance.com/wp-content/uploads/2024/02/Electrical-Safety-Inspection-Methods-Used.jpg",
+        "price":2500,
+        "category":"Electrical Services"
+    },
+    {
+        "name":"Surge Protection Services",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7F-2bbvM6nHzEUkN71WhurcFJkRnWrwPwAhjR0NODiN7um-cir50zW1Smr_QcVeSQVds&usqp=CAU",
+        "price":2500,
+        "category":"Electrical Services"
+    },
+    {
+        "name":"Generator Installation and Maintenance",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLwhuuxNw03ysPd-mV6eyBhyV64VBnQhmhpg&s",
+        "price":2500,
+        "category":"Electrical Services"
+    },
+    {
+        "name":"Smart Home Electrical Integration",
+        "image":"https://elementintegration.com/wp-content/uploads/2018/07/integrated-home-automation-systems.jpg",
+        "price":2500,
+        "category":"Electrical Services"
+    },
+    {
+        "name":"EV Charger Installation",
+        "image":"https://chargingshop.eu/wp-content/uploads/2023/01/EV-Installation-.jpg",
+        "price":2500,
+        "category":"Electrical Services"
+    },
+    {
+        "name":"Outlet and Switch Installation",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvLUrKjzgjf4p7pfdoHj0EzayuM6nqDcW8kw&s",
+        "price":2500,
+        "category":"Electrical Services"
+    },
+    {
+        "name":"Circuit Breaker Repair and Replacement",
+        "image":"https://nwpacificelectric.com/wp-content/uploads/2022/12/new-panel-upgrade2.jpg",
+        "price":2500,
+        "category":"Electrical Services"
+    },
+    {
+        "name":"Energy Efficiency Audits",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQSU7TxAjcjPqefj62bj74OnuHNVek3gHjwhd710XrRlEVWBw1cD-bZqpkxWYoyDxZ_MI&usqp=CAU",
+        "price":2500,
+        "category":"Electrical Services"
+    },
+    {
+        "name":"Residential Cleaning Services",
+        "image":"https://maidinnolaus.wordpress.com/wp-content/uploads/2021/10/residential-house-cleaning-services.jpg?w=1080",
+        "price":2500,
+        "category":"Cleaning Services"
+    },
+    {
+        "name":"Commercial Cleaning Services",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRij6n14wNjGUJqkit1-llQblyoI3z6Um6GIw&s",
+        "price":2500,
+        "category":"Cleaning Services"
+    },
+    {
+        "name":"Deep Cleaning Services",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZokcSp4d7G-GpJy1ZI_-fc-5BrpCeMOvF7w&s",
+        "price":2500,
+        "category":"Cleaning Services"
+    },
+    {
+        "name":"Move-In/Move-Out Cleaning",
+        "image":"https://lisasnatural.com/wp-content/uploads/2017/12/move-out-cleaning-services.jpg",
+        "price":2500,
+        "category":"Cleaning Services"
+    },
+    {
+        "name":"Carpet and Upholstery Cleaning",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKAYMrPFQSYMEdYWWjUR3-sw8AlqfSrgdSJw&s",
+        "price":2500,
+        "category":"Cleaning Services"
+    },
+    {
+        "name":"Window Cleaning Services",
+        "image":"https://citywidebuildingservices.com/wp-content/uploads/2020/11/commercial-window-cleaning-new.jpg",
+        "price":2500,
+        "category":"Cleaning Services"
+    },
+    {
+        "name":"Post-Construction Cleaning",
+        "image":"https://cdn.prod.website-files.com/65ef56341b90994f731562d8/666334e69161f6f00059bd87_post-construction-cleaning.jpg",
+        "price":2500,
+        "category":"Cleaning Services"
+    },
+    {
+        "name":"Floor Cleaning and Maintenance",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Dbqd2385jYdBJ6Yqfz6gcoGHjV26aXphNw&s",
+        "price":2500,
+        "category":"Cleaning Services"
+    },
+    {
+        "name":"Janitorial Services",
+        "image":"https://lirp.cdn-website.com/9b7c45b5/dms3rep/multi/opt/625fe1fb40d8b5da3691938a_janitorial-services-superior-cleaning-and-restoration-p-1080-640w.jpeg",
+        "price":2500,
+        "category":"Cleaning Services"
+    },
+    {
+        "name":"Office Cleaning Services",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsSsIefxRpACfLbFP-y6Z9idbTOcSxlISGAA&s",
+        "price":2500,
+        "category":"Cleaning Services"
+    },
+    {
+        "name":"Pressure Washing",
+        "image":"https://nedstevensli.com/wp-content/uploads/2020/07/PowerWash.jpg",
+        "price":2500,
+        "category":"Cleaning Services"
+    },
+    {
+        "name":"Air Duct Cleaning",
+        "image":"https://www.homecomfortexpertsinc.com/wp-content/uploads/2019/09/shutterstock_1028024920-scaled-1.jpg",
+        "price":2500,
+        "category":"Cleaning Services"
+    },
+    {
+        "name":"Hoarding Cleanup Services",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1pcAnsKyWvCKCnPPuAxds414kpM8FJoLE_g&s",
+        "price":2500,
+        "category":"Cleaning Services"
+    },
+    {
+        "name":"Disinfection and Sanitization Services",
+        "image":"https://5.imimg.com/data5/SELLER/Default/2024/4/408475090/OK/NO/HH/23269614/covid-19-sanitation-service-500x500.jpg",
+        "price":2500,
+        "category":"Cleaning Services"
+    },
+    {
+        "name":"Managed IT Services",
+        "image":"https://www.simplilearn.com/ice9/free_resources_article_thumb/Managed_It_Services.jpg",
+        "price":2500,
+        "category":"IT Services"
+    },
+    {
+        "name":"IT Support and Help Desk Services",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwtb0asfRXfaWOWrjdYzyqkkB43zjYFHLjmQ&s",
+        "price":2500,
+        "category":"IT Services"
+    },
+    {
+        "name":"Network Setup and Management",
+        "image":"https://d34smkdb128qfi.cloudfront.net/images/librariesprovider2/blogs/2018/07/sever-cable-management-1.jpg?sfvrsn=e5c22ff5_3",
+        "price":2500,
+        "category":"IT Services"
+    },
+    {
+        "name":"Cybersecurity Services",
+        "image":"https://bleuwire.com/wp-content/uploads/2019/10/cybersecurity-IT-security-services.jpg",
+        "price":2500,
+        "category":"IT Services"
+    },
+    {
+        "name":"Cloud Computing Services",
+        "image":"https://www.simplilearn.com/ice9/free_resources_article_thumb/What_are_the_Types_of_Cloud_Computing_and_Cloud_Services.jpg",
+        "price":2500,
+        "category":"IT Services"
+    },
+    {
+        "name":"IT Consulting Services",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY-bysDzPSbbcAvk1WOR7WGQ3iyoHVXk9tpg&s",
+        "price":2500,
+        "category":"IT Services"
+    },
+    {
+        "name":"Data Backup and Recovery",
+        "image":"https://i0.wp.com/primasecure.com/wp-content/uploads/2022/06/R-2.webp?fit=1869%2C1121&quality=80&ssl=1",
+        "price":2500,
+        "category":"IT Services"
+    },
+    {
+        "name":"Software Development and Integration",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR-8Mz1Xvjfof0AyGKEX1nJuxwoN7LInkXVg&s",
+        "price":2500,
+        "category":"IT Services"
+    },
+    {
+        "name":"System Administration",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIFDmlWBTQ-V4MPNFHDy6nUq2f8r5ClT_tkQ&s",
+        "price":2500,
+        "category":"IT Services"
+    },
+    {
+        "name":"Database Management Services",
+        "image":"https://5.imimg.com/data5/SELLER/Default/2022/11/WK/BO/CF/9529367/database-management-service.jpeg",
+        "price":2500,
+        "category":"IT Services"
+    },
+    {
+        "name":"IT Infrastructure Setup",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5gAgmnhvlqd6Ovx2B-wq7uuPH-eFso_4_-g&s",
+        "price":2500,
+        "category":"IT Services"
+    },
+    {
+        "name":"VoIP and Unified Communications",
+        "image":"https://voiptech.solutions/wp-content/uploads/2020/08/Difference-FeatureImg-1024x597.png",
+        "price":2500,
+        "category":"IT Services"
+    },
+    {
+        "name":"Hardware and Software Installation",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSUFXOQiL-3QWBlepkwlA95gImIpm-U9khJw&s",
+        "price":2500,
+        "category":"IT Services"
+    },
+    {
+        "name":"IT Project Management",
+        "image":"https://www.simplilearn.com/ice9/free_resources_article_thumb/project_management_coursefees.jpg",
+        "price":2500,
+        "category":"IT Services"
+    },
+    {
+        "name":"IT Asset Management",
+        "image":"https://www.forescout.com/wp-content/uploads/2019/06/asset-mgmt-post-1-image.jpg",
+        "price":2500,
+        "category":"IT Services"
+    },
+    {
+        "name":"Mobile Device Management",
+        "image":"https://www.tis-gmbh.de/wp-content/uploads/2019/09/tislog-mdm-en.jpg",
+        "price":2500,
+        "category":"IT Services"
+    },
+    {
+        "name":"Remote Monitoring and Management (RMM)",
+        "image":"https://cyberhoot.com/wp-content/uploads/2020/04/Remote-Monitoring-Management-RMM-Software.jpg",
+        "price":2500,
+        "category":"IT Services"
+    },
+    {
+        "name":"Virtualization Services",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmINwj5602J0QsZcdYyqBTQ_xHyFPoDNojQg&s",
+        "price":2500,
+        "category":"IT Services"
+    },
+    {
+        "name":"IT Security Audits and Compliance",
+        "image":"https://www.centraleyes.com/wp-content/uploads/2023/06/Security_Audit_Benefits_for_Small_Businesses_.png",
+        "price":2500,
+        "category":"IT Services"
+    },
+    {
+        "name":"Web Development and Hosting Services",
+        "image":"https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2020/03/8-Best-Web-Hosting-Services-for-Developers-850x435.jpg",
+        "price":2500,
+        "category":"IT Services"
+    },
+    {
+        "name":"Home Appliance Repair Services",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_N8tdtFGaxOYQFfeCXeli0J8nuvjTTB0R3Q&s",
+        "price":2500,
+        "category":"Repair Services"
+    },
+    {
+        "name":"Computer and Laptop Repair",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9LGxMlCfBhx7iIoupAo-B13ilFDPC9MWaHA&s",
+        "price":2500,
+        "category":"Repair Services"
+    },
+    {
+        "name":"Smartphone and Tablet Repair",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAvrGcVaYWD8-P5Vo7SC6EJUt8xZFLjgiFAw&s",
+        "price":2500,
+        "category":"Repair Services"
+    },
+    {
+        "name":"HVAC Repair and Maintenance",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcovS5HyIukBaWHpVx3WcplN6lQLHIW_1blg&s",
+        "price":2500,
+        "category":"Repair Services"
+    },
+    {
+        "name":"Electrical Repair Services",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2IzTRibKdqGXIW606qSJmSivSkpIf7mrYIQ&s",
+        "price":2500,
+        "category":"Repair Services"
+    },
+    {
+        "name":"Automotive Repair Services",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG0edrQt9qnBtMysnO7ImBvkBrXLA6hbfOWw&s",
+        "price":2500,
+        "category":"Repair Services"
+    },
+    {
+        "name":"Furniture Repair and Restoration",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoDsG8t543sNChDob6zym2MKIBSGrv6ONnUw&s",
+        "price":2500,
+        "category":"Repair Services"
+    },
+    {
+        "name":"Roof Repair Services",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnlXeRCS6zgWnElepZnbxYVKq8sUwGLSlK2w&s",
+        "price":2500,
+        "category":"Repair Services"
+    },
+    {
+        "name":"Window and Door Repair",
+        "image":"https://images.squarespace-cdn.com/content/v1/638788ac75826a686d5b052e/93d1867c-16a0-4f99-ba5c-6be6ea88a6b3/Windowsand+Doors-JRM+Services-North+London00003.jpg",
+        "price":2500,
+        "category":"Repair Services"
+    },
+    {
+        "name":"Bicycle Repair Services",
+        "image":"https://i.ytimg.com/vi/tlAHdFCEiWg/maxresdefault.jpg",
+        "price":2500,
+        "category":"Repair Services"
+    },
+    {
+        "name":"Camera and Electronics Repair",
+        "image":"https://content.jdmagicbox.com/comp/def_content/camera-repair-and-services-canon/4-camera-repair-and-services-canon-4-6pz3t.jpg",
+        "price":2500,
+        "category":"Repair Services"
+    },
+    {
+        "name":"Small Engine Repair",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKiS6hOYs0WJVjhxxWtQPZYK_dLCySKYSIHA&s",
+        "price":2500,
+        "category":"Repair Services"
+    },
+    {
+        "name":"Watch and Jewelry Repair",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw77vFLQAJsyTIYJz2iVN3k0luF8OaJTAbLH7hchLrNpgxacjQfHutPXxQA0svQh9oxzs&usqp=CAU",
+        "price":2500,
+        "category":"Repair Services"
+    },
+    {
+        "name":"Garage Door Repair Services",
+        "image":"https://hestondoorservice.com/wp-content/uploads/2022/10/shutterstock_1519701983-scaled-e1667249964887.jpg",
+        "price":2500,
+        "category":"Repair Services"
+    },
+    {
+        "name":"Sewing Machine Repair",
+        "image":"https://5.imimg.com/data5/SELLER/Default/2024/3/404893454/XT/EC/JP/215907534/sewing-machine-repairing-service.png",
+        "price":2500,
+        "category":"Repair Services"
+    },
+    {
+        "name":"Boat and Marine Equipment Repair",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAJVfnNe5LISzOKvM8_H4Aro9lFQFGQ6MSHepPF1CiKJd6EoNfyW62dlq-W2qJfhloYIA&usqp=CAU",
+        "price":2500,
+        "category":"Repair Services"
+    },
+    {
+        "name":"Printer and Copier Repair",
+        "image":"https://media.licdn.com/dms/image/D4D12AQHZswXzXCHDQw/article-cover_image-shrink_720_1280/0/1677574155122?e=2147483647&v=beta&t=HOagC0-QakWrlHfnTtT409sdC137l9IcGo6nu1pPtXs",
+        "price":2500,
+        "category":"Repair Services"
+    },
+    {
+        "name":"Audio Equipment Repair",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiQ_3c1o1tWkV6et-1E5oYf94zTVfOzqFt9g&s",
+        "price":2500,
+        "category":"Repair Services"
+    },
+    {
+        "name":"Gutter Repair and Replacement",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDrQPhIMdB3jd-W689MziOfz-tWH8ia0mReg&s",
+        "price":2500,
+        "category":"Repair Services"
+    },
+    {
+        "name":"General Contracting Services",
+        "image":"https://images.squarespace-cdn.com/content/v1/5728c47b59827e6e7a16aa8a/1469921997183-1XPCZHGRLGBUJQO6RVTW/image-asset.jpeg?format=1500w",
+        "price":2500,
+        "category":"Construction Services"
+    },
+    {
+        "name":"Residential Construction",
+        "image":"https://cloudinary.propane.com/images/f_auto,q_auto/v1594748605/website-media/Propane-Homepage-Other-Uses-Residential-Construction-Marquee-1800x1200-Builder-Jobsite/Propane-Homepage-Other-Uses-Residential-Construction-Marquee-1800x1200-Builder-Jobsite.jpg?_i=AA",
+        "price":2500,
+        "category":"Construction Services"
+    },
+    {
+        "name":"Commercial Construction",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX8iEi1ccR-VwQ-fKvYIXbwtuzubR9L4evAA&s",
+        "price":2500,
+        "category":"Construction Services"
+    },
+    {
+        "name":"New Home Construction",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2LOkBMGhksGb_hDEOYY0sgB3VKEv5aX4TtA&s",
+        "price":2500,
+        "category":"Construction Services"
+    },
+    {
+        "name":"Home Remodeling and Renovation",
+        "image":"https://www.bankrate.com/2020/02/01085835/How-much.jpg?auto=webp&optimize=high&crop=16:9",
+        "price":2500,
+        "category":"Construction Services"
+    },
+    {
+        "name":"Kitchen and Bathroom Remodeling",
+        "image":"https://www.bobvila.com/wp-content/uploads/2022/10/who-to-hire-for-bathroom-remodel.jpg?strip=all&quality=85",
+        "price":2500,
+        "category":"Construction Services"
+    },
+    {
+        "name":"Basement Finishing and Remodeling",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm60ulDZuoKhXzXtWyoo5ybJLI65N3lRa6ag&s",
+        "price":2500,
+        "category":"Construction Services"
+    },
+    {
+        "name":"Roofing Installation and Repair",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYfa_IwXqIFayCF07UtQNs1gCmvAetPCpmjgCh3JUqT5Mgumg3YVLIcnUBJx7193yAyZE&usqp=CAU",
+        "price":2500,
+        "category":"Construction Services"
+    },
+    {
+        "name":"Concrete and Masonry Services",
+        "image":"https://www.kcjlandscaping.ae/wp-content/uploads/2020/08/masonry-services-in-Dubai-1.jpg",
+        "price":2500,
+        "category":"Construction Services"
+    },
+    {
+        "name":"Deck and Patio Construction",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzBwehW-Qrqigsay2hxBOsBw8ZSG_ifnTAuQ&s",
+        "price":2500,
+        "category":"Construction Services"
+    },
+    {
+        "name":"Drywall Installation and Repair",
+        "image":"https://herndondrywallrepair.info/wp-content/uploads/2020/03/Drywall_replacement.jpeg",
+        "price":2500,
+        "category":"Construction Services"
+    },
+    {
+        "name":"Flooring Installation",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-VDa09MW-WEDbm54ZcjCXW_orZfBAWO7jRw&s",
+        "price":2500,
+        "category":"Construction Services"
+    },
+    {
+        "name":"Siding Installation and Repair",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjmh6tmllGs_A1W0aWZLPBiuRiz1GbC2UhEw&s",
+        "price":2500,
+        "category":"Construction Services"
+    },
+    {
+        "name":"Garage and Carport Construction",
+        "image":"https://mrverandah.com.au/wp-content/uploads/2020/04/carport-builders-melbourne.jpg",
+        "price":2500,
+        "category":"Construction Services"
+    },
+    {
+        "name":"Fence and Gate Installation",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwn3-f3vaz-eFiYys3qot_1v94bL9QW71ASw&s",
+        "price":2500,
+        "category":"Construction Services"
+    },
+    {
+        "name":"Landscape Construction and Hardscaping",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVQButh_8RAqQ_gw7vqMDktJ5GE9HuC7jaLw&s",
+        "price":2500,
+        "category":"Construction Services"
+    },
+    {
+        "name":"Foundation Repair and Construction",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiZ38-UGqtfkt9zT2S6z0cWUteJG19Vu5Kuw&s",
+        "price":2500,
+        "category":"Construction Services"
+    },
+    {
+        "name":"Steel and Metal Building Construction",
+        "image":"https://www.greystoneconstruction.com/assets/images/photos/2.10---Service_-Pre-Engineered-Metal-Buildings/pre-engineered-metal-buildings-banner.jpg",
+        "price":2500,
+        "category":"Construction Services"
+    },
+    {
+        "name":"Demolition Services",
+        "image":"https://www.assignar.com/wp-content/uploads/2022/04/assignar-demolition-software.jpg",
+        "price":2500,
+        "category":"Construction Services"
+    },
+    {
+        "name":"Window and Door Installation",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRShkPpf-e2qyC7gXpGuAjZeImSqNUKlD4eIw&s",
+        "price":2500,
+        "category":"Construction Services"
+    }
+]
+    
