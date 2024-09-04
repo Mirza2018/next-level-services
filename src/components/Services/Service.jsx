@@ -1,9 +1,11 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const Service = ({service}) => {
-    const {name,image,price}=service
+    const {name,image,price,_id}=service
     // console.log(name);
+
     
     return (
         <div  className="card bg-base-100 w-96 shadow-xl">
@@ -21,7 +23,7 @@ const Service = ({service}) => {
         </h2>
     
     <div className="card-actions justify-end">
-      <button className="btn bg-transparent text-orange-500 border-orange-500 hover:bg-orange-500 hover:text-white hover:scale-110">Book now</button>
+      <Link href={`/services/${_id}`} className="btn bg-transparent text-orange-500 border-orange-500 hover:bg-orange-500 hover:text-white hover:scale-110">Book now</Link>
     </div>
   </div>
 </div>

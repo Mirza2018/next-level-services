@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const SelasNews = () => {
@@ -35,12 +36,12 @@ const SelasNews = () => {
             </svg>
             buy a service from us get next sevice <span className='font-bold text-orange-500 animate-ping delay-100'>50% OFF</span> .
           </p>
-          <a
-            href="#"
+          <Link
+            href="/services"
             className="flex-none rounded-full bg-gray-900 px-3.5 py-1 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
           >
-            Register now <span aria-hidden="true">&rarr;</span>
-          </a>
+            Shop Now <span aria-hidden="true">&rarr;</span>
+          </Link>
         </div>
         <div className="flex flex-1 justify-end">
           <button aria-hidden="true" type="button" className="-m-3 p-3 focus-visible:outline-offset-[-4px]">
