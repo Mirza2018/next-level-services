@@ -9,7 +9,7 @@ const Navber = () => {
   const menuItems=[
     {
       title:"Home",
-      path:"/home"
+      path:"/"
     },
     {
       title:"Services",
@@ -48,7 +48,7 @@ const Navber = () => {
 {
   menuItems.map(menu=>
   <Link className={`${pathName===menu?.path && "text-orange-500"}`} href={menu.path} key={menu.title}>
-    <li className='p-5 text-base font-semibold uppercase hover:text-orange-500'>
+    <li className='p-5 text-base font-semibold uppercase hover:border-orange-500'>
       {menu.title}
     </li>
 
@@ -64,7 +64,7 @@ const Navber = () => {
     {
   menuItems.map(menu=>
   <Link className={`${pathName===menu?.path && "text-orange-500"}`} href={menu.path} key={menu.title}>
-    <li className='p-5 text-base font-semibold uppercase hover:text-orange-500'>
+    <li className='p-2 mx-3 text-base font-semibold uppercase hover:rounded-lg hover:border-orange-500 hover:border-2'>
       {menu.title}
     </li>
 

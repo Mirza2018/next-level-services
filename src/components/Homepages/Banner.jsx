@@ -4,14 +4,11 @@ import React, { useState } from 'react';
 
 const Banner = () => {
   const[slide,setSlide]=useState(slideData[0])
-  // console.log(slideData[2]);
   const goNext=(id,add=1)=>{
 if(id==6){
  return  setSlide(slideData[0])
 }
   setSlide(slideData[id])
-
-
 
   }
 
@@ -34,8 +31,8 @@ console.log(slide);
       className="w-full" />
 
     <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-      <a onClick={()=>goNext(slide.id)} className="btn btn-circle">❮</a>
-      <a onClick={()=>goNext(slide.id,-1)}  className="btn btn-circle">❯</a>
+      <a onClick={()=>goNext(slide.id)} className="btn btn-circle ms-20">❮</a>
+      <a onClick={()=>goNext(slide.id,-1)}  className="btn btn-circle me-20">❯</a>
     </div>
   </div>
 
