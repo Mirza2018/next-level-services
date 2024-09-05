@@ -36,7 +36,7 @@ const Service = ({service}) => {
   {/* <div
     className="bg-gradient-to-br from-rose-100 via-purple-200 to-purple-200 m-2 h-3/6 rounded-lg"
   ></div> */}
-  <Image placeholder='blur' blurDataURL={image} loading="lazy" style={{ aspectRatio: 3/2 }}  className='object-contain' src={image} alt={name} width={400} height={400}   />
+  <Image placeholder='blur' blurDataURL='/loadingImg.gif' loading="lazy" style={{ aspectRatio: 3/2 }}  className='object-contain' src={image} alt={name} width={400} height={400}   />
 
   <div className="px-5 pt-2 flex flex-col">
     <h2 className="font-semibold">{name} </h2>

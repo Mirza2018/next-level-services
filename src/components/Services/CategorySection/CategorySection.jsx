@@ -7,6 +7,9 @@ const CategorySection = () => {
             <h1 >Category</h1>
             <div className="divider divider-neutral "></div>
             <div className='flex flex-col text-xl text-blue-400'>
+                <Link href="/services">
+               <h3 className='hover:bg-slate-200 -ms-2 ps-2 py-2 rounded'>All Services</h3>
+               </Link>
                 <Link href="/services/Plumbing Services">
                <h3 className='hover:bg-slate-200 -ms-2 ps-2 py-2 rounded'>Plumbing Services</h3>
                </Link>
