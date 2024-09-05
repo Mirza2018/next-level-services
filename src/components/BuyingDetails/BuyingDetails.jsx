@@ -10,6 +10,7 @@ import { redirect, useRouter } from 'next/navigation';
 import Link from 'next/link';
 
 const BuyingDetails = ({params}) => {
+// console.log(params.categories);
 
   const [services, setServices] = useState([]);
   const navigate=useRouter()
