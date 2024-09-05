@@ -5,9 +5,14 @@ import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 import { IoStar } from "react-icons/io5";
 import BuyDataLoading from '../Loading/BuyDataLoading';
+import Swal from 'sweetalert2';
+import { redirect, useRouter } from 'next/navigation';
+import Link from 'next/link';
+
 const BuyingDetails = ({params}) => {
 
   const [services, setServices] = useState([]);
+  const navigate=useRouter()
       
   useEffect(() => {
 
@@ -26,19 +31,44 @@ const BuyingDetails = ({params}) => {
     const personData=(e)=>{
       e.preventDefault()
       const fromData= new FormData(e.target)
-      const {name,email,date,address}=Object.fromEntries(fromData)
-      
+      const {name,email,date,address,mobile}=Object.fromEntries(fromData)
 
-      const orderDetails={
-        name,email,date,address,service:[service]
+
+      if(!(mobile.length == 14 || mobile.length == 11)){
+return Swal.fire({
+  title: "Error!",
+  text: "Give Valid Number!",
+  icon: "error"
+});
       }
+
+
+
+      
+      let orderDetails=[{
+        name,email,date,address,service,mobile
+      }]
+    
 if(localStorage.getItem("nextorderDetails")){
-  console.log("okkok");
+  const item=JSON.parse(localStorage.getItem("nextorderDetails"))
+  // item.service.push(service)
+  orderDetails=[...item,...orderDetails]
+
+ 
   
-}
+}  
+
+
       localStorage.setItem("nextorderDetails", JSON.stringify(orderDetails));
       
+      Swal.fire({
+        title: "Order Successful!",
+        text: "Our team will contact you soon",
+        icon: "success"
+      });
 
+ navigate.push("/")
+ 
     }
 
 
@@ -101,6 +131,13 @@ if(localStorage.getItem("nextorderDetails")){
                 <input type="name" placeholder="name" className="input input-bordered" required name="name" />
               </div>
 
+              <div className="form-control">
+                <label className="label">
+                  <span className="label-text">Contract Number</span>
+                </label>
+                <input type="tel" placeholder="+880" className="input input-bordered" required name="mobile" />
+              </div>
+
 
               <div className="form-control">
                 <label className="label">
@@ -135,7 +172,9 @@ if(localStorage.getItem("nextorderDetails")){
                 <button disabled={!service} className="btn btn-primary hover:cursor-pointer">Order Service</button>
               </div>
             </form>
-            
+            <Link href='/services'  className='mx-auto btn  btn-error text-white px-32 mb-4 '  > Cancel
+            </Link>
+           
 
 
 
