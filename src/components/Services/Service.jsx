@@ -10,7 +10,7 @@ const Service = ({service}) => {
     return (
         <div  className="card bg-base-100 w-96 shadow-xl">
   <figure>
-    <Image loading="lazy" style={{ aspectRatio: 3/2 }}  className='object-contain' src={image} alt={name} width={400} height={400}   />
+    <Image placeholder='blur' blurDataURL={image} loading="lazy" style={{ aspectRatio: 3/2 }}  className='object-contain' src={image} alt={name} width={400} height={400}   />
     {/* <img
       src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
       alt="Shoes" /> */}
@@ -23,6 +23,8 @@ const Service = ({service}) => {
         </h2>
     
     <div className="card-actions justify-end">
+      <p className='text-pretty text-base font-medium'> Price:{price}&#65284;</p>
+      
       <Link href={`/services/${_id}`} className="btn bg-transparent text-orange-500 border-orange-500 hover:bg-orange-500 hover:text-white hover:scale-110">Book now</Link>
     </div>
   </div>
