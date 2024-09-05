@@ -1,3 +1,4 @@
+import Categories from '@/components/Services/Categories';
 import React from 'react';
 
 const CategoriesPage = ({params}) => {
@@ -7,7 +8,7 @@ const category = str?.replace("%20", " ");
 
     return (
         <div>
-        <CategoriesPage category={category} ></CategoriesPage>
+       <Categories category={category}></Categories>
         </div>
     );
 };
