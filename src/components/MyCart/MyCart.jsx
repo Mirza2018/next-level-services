@@ -29,7 +29,7 @@ const MyCart = () => {
     items?.map((item,index)=>
           <div key={index} className="rounded-3xl border-2 border-gray-200 p-4 lg:p-8 mb-8 max-lg:max-w-lg max-lg:mx-auto gap-y-4 shadow-xl pe-3">
                     <div className="col-span-12 lg:col-span-2 img box">
-                        <Image src="https://pagedone.io/asset/uploads/1701162839.png" alt="speaker image" className="w-full  rounded-lg" priority  width={180}  height={180}  />
+                        <Image src={item?.service?.image} alt="speaker image" className="w-full  rounded-lg" priority  width={180}  height={180}  />
                     </div>
                     <div className="col-span-12 lg:col-span-10 detail w-full lg:pl-3">
                         <div className="flex items-center justify-between w-full mb-4">
@@ -44,7 +44,7 @@ const MyCart = () => {
                             <p><span className='font-bold'>Address: </span> {item.address}</p>
                         </div>
                         <div className="flex justify-end items-center">
-                            <h6 className="text-indigo-600 font-manrope font-bold text-2xl leading-9 text-right">${item?.service?.price}</h6>
+                            <h6 className="text-indigo-600 font-bold text-md text-right">${item?.service?.price}</h6>
                         </div>
                     </div>
                 </div>

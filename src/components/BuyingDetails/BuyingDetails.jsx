@@ -69,7 +69,9 @@ if(localStorage.getItem("nextorderDetails")){
       });
 
  navigate.push("/")
- 
+ window.setTimeout( function() {
+location.reload();
+}, 700);
     }
 
 
