@@ -3,8 +3,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { AiTwotoneShopping } from "react-icons/ai";
-import React, { useEffect, useState } from 'react';
+import { AiFillCloseCircle, AiTwotoneShopping } from "react-icons/ai";
+import React, { useEffect, useRef, useState } from 'react';
+import MyCart from '../MyCart/MyCart';
 const Navber = () => {
   const pathName=usePathname()
   const [items, setItems] = useState([]);
@@ -13,6 +14,23 @@ const Navber = () => {
               const buy=JSON.parse(localStorage.getItem("nextorderDetails"))
               setItems(buy)
   },[])
+
+
+  const toggleCart=()=>{
+if (ref.current.classList.contains('translate-x-full')){
+  ref.current.classList.remove('translate-x-full')
+  ref.current.classList.add('translate-x-0')
+}
+else if (! ref.current.classList.contains('translate-x-full')){
+  ref.current.classList.remove('translate-x-0')
+  ref.current.classList.add('translate-x-full')
+}
+
+  }
+const ref=useRef()
+
+
+
   const menuItems=[
     {
       title:"Home",
@@ -30,7 +48,7 @@ const Navber = () => {
     return (
 
 
-<div className='bg-base-100 '>
+<div className='bg-base-100 sticky top-0 z-10'>
   <div className="navbar container mx-auto">
   <div className="navbar-start">
     <div className="dropdown">
@@ -79,37 +97,35 @@ const Navber = () => {
 }
 
 
-
-      {/* <li><a>Item 1</a></li>
-      <li>
-        <details>
-          <summary>Parent</summary>
-          <ul className="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </details>
-      </li>
-      <li><a>Item 3</a></li> */}
     </ul>
   </div>
   <div className="navbar-end">
-    <Link href='/cart'>
-     <span class="relative inline-flex">
-    <button type="button" class="inline-flex items-center px-4 py-2 font-semibold leading-6 text-sm shadow rounded-md text-sky-500 bg-white dark:bg-slate-800 transition ease-in-out duration-150  ring-1 ring-slate-900/10 dark:ring-slate-200/20" >
+    <div  onClick={toggleCart}  >
+     <span className="relative inline-flex">
+    <button type="button" className="inline-flex items-center px-4 py-2 font-semibold leading-6 text-sm shadow rounded-md text-sky-500 bg-white dark:bg-slate-800 transition ease-in-out duration-150  ring-1 ring-slate-900/10 dark:ring-slate-200/20" >
        <AiTwotoneShopping className='text-xl  '/>
     </button>
     {
-      items?.length >0 && <span class="flex absolute h-3 w-3 top-0 right-0 -mt-1 -mr-1">
-      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
-      <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+      items?.length >0 && <span className="flex absolute h-3 w-3 top-0 right-0 -mt-1 -mr-1">
+      <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+      <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
     </span>
-    }
-    
-  </span></Link>
+    }</span></div>
   </div>
-</div>
+
+<div ref={ref} className='sideCart  flex  absolute -top-6 right-0  p-1 translate transition-transform translate-x-full z-10 bg-transparent '>
+        <div className=''>
+            <span onClick={toggleCart} className="absolute top-12 right-4 cursor-pointer text-2xl z-10">
+              <AiFillCloseCircle/>
+            </span>
+          <MyCart/>
       </div>
+
+</div>
+</div>
+
+</div>
+
  
     );
 };
