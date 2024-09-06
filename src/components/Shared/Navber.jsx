@@ -3,9 +3,15 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 const Navber = () => {
   const pathName=usePathname()
+  const [items, setItems] = useState([]);
+
+  useEffect(()=>{
+              const buy=JSON.parse(localStorage.getItem("nextorderDetails"))
+              setItems(buy)
+  },[])
   const menuItems=[
     {
       title:"Home",
@@ -87,7 +93,7 @@ const Navber = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Button</a>
+    <Link href='/cart' className="btn">Cart +{items?.length}</Link>
   </div>
 </div>
       </div>
