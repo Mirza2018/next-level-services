@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { AiTwotoneShopping } from "react-icons/ai";
 import React, { useEffect, useState } from 'react';
 const Navber = () => {
   const pathName=usePathname()
@@ -93,7 +94,19 @@ const Navber = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <Link href='/cart' className="btn">Cart +{items?.length}</Link>
+    <Link href='/cart'>
+     <span class="relative inline-flex">
+    <button type="button" class="inline-flex items-center px-4 py-2 font-semibold leading-6 text-sm shadow rounded-md text-sky-500 bg-white dark:bg-slate-800 transition ease-in-out duration-150  ring-1 ring-slate-900/10 dark:ring-slate-200/20" >
+       <AiTwotoneShopping className='text-xl  '/>
+    </button>
+    {
+      items?.length >0 && <span class="flex absolute h-3 w-3 top-0 right-0 -mt-1 -mr-1">
+      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+      <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+    </span>
+    }
+    
+  </span></Link>
   </div>
 </div>
       </div>
