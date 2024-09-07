@@ -44,6 +44,10 @@ const ref=useRef()
       title:"About",
       path:"/about"
     },
+    {
+      title:"Blogs",
+      path:"/blogs"
+    },
   ]
     return (
 
