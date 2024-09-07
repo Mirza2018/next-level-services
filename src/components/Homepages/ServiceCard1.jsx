@@ -8,7 +8,7 @@ const Servicecard1 = () => {
         <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
             <div class="grid items-center md:grid-cols-2 md:gap-x-20 gap-y-10">
                 <div class="relative pl-16 pr-10 sm:pl-6 md:pl-0 xl:pr-0 md:order-2">
-                    <Image  placeholder='blur' blurDataURL='/loadingImg.gif'  width={100} height={100} class="absolute top-6 -right-4 xl:-right-12" src="https://cdn.rareblocks.xyz/collection/celebration/images/features/3/dots-pattern.svg" alt="" />
+                    <Image   width={100} height={100} class="absolute top-6 -right-4 xl:-right-12" src="https://cdn.rareblocks.xyz/collection/celebration/images/features/3/dots-pattern.svg" alt="" />
     
                     <div class="relative max-w-xs ml-auto">
                         <div class="overflow-hidden aspect-w-3 aspect-h-4">

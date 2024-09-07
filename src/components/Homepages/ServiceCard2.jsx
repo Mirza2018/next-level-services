@@ -1,3 +1,5 @@
+import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const ServiceCard2 = () => {
@@ -7,15 +9,16 @@ const ServiceCard2 = () => {
         <div class="grid items-center md:grid-cols-2 gap-y-10 md:gap-x-20">
             <div class="pr-12 sm:pr-0">
                 <div class="relative max-w-xs mb-12">
-                    <img class="object-bottom rounded-md" src="https://images.pexels.com/photos/2209529/pexels-photo-2209529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+                <Image width={600} height={600}  class="object-bottom rounded-md" src="https://images.pexels.com/photos/2209529/pexels-photo-2209529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
 
-                    <img class="absolute origin-bottom-right scale-75 rounded-md -bottom-12 -right-12" src="https://images.pexels.com/photos/73833/weld-hot-soldering-radio-welder-73833.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+                <Image width={400} height={400}  class="absolute origin-bottom-right scale-75 rounded-md -bottom-12 -right-12" src="https://images.pexels.com/photos/73833/weld-hot-soldering-radio-welder-73833.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                 </div>
             </div>
 
             <div>
-                <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Grow business with Celebration.</h2>
-                <p class="mt-4 text-base leading-relaxed text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Grow business with us.</h2>
+                <p class="mt-4 text-base leading-relaxed text-gray-600">developing a rapport with customers is essential. Do you run a service-based business such as an HVAC, appliance repair, or plumbing company? Read on for some insightful strategies that will help grow your business..</p>
+                <Link href=".//services" title="" class="inline-flex items-center justify-center px-8 py-3 mt-8 text-base font-semibold text-white transition-all duration-200 bg-blue-600 rounded-md hover:bg-blue-700 focus:bg-blue-700" role="button"> Order Services </Link>
             </div>
         </div>
     </div>
