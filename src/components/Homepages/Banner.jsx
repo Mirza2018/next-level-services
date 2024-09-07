@@ -12,7 +12,7 @@ if(id==6){
 
   }
 
-console.log(slide);
+
 
   
   

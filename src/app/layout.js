@@ -3,9 +3,11 @@ import "./globals.css";
 import Navber from "@/components/Shared/Navber";
 import Footer from "@/components/Shared/Footer";
 import Logo from "@/components/Logo/Logo";
-import SelasNews from "@/components/Homepages/SelasNews";
+import { Space_Grotesk } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+
+// const inter = Inter({ subsets: ["latin"] });
+const grotesk = Space_Grotesk({weight:["300", "400" , "500" , "600" , "700" ], subsets: ["latin","latin-ext"] });
 
 export const metadata = {
   title: "Next level services",
@@ -18,7 +20,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={grotesk.className}>
         {/* <SelasNews/> */}
         <Navber/>
         

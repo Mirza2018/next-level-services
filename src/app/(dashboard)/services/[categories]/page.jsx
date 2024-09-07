@@ -9,8 +9,8 @@ const category = str?.replace("%20", " ");
 
     return (
         <div>
-            <div className='flex  justify-center'>
-              <div className='hidden sm:block' >
+            <div className='flex  justify-center '>
+              <div className='hidden sm:block ' >
                      <CategorySection/>
              </div>
 
