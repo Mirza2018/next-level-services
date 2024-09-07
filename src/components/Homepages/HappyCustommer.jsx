@@ -12,7 +12,7 @@ const HappyCustommer = () => {
         <div class="grid grid-cols-1 gap-8 mt-10 text-center lg:mt-24 sm:gap-x-8 md:grid-cols-3">
             <div>
                 <h3 class="font-bold text-7xl">
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-600 to-blue-600"> 6+ </span>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-600 to-blue-600"> 10+ </span>
                 </h3>
                 <p class="mt-4 text-xl font-medium text-gray-900">Years in business</p>
                 <p class="text-base mt-0.5 text-gray-500">Creating the successful path</p>
@@ -20,15 +20,15 @@ const HappyCustommer = () => {
 
             <div>
                 <h3 class="font-bold text-7xl">
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-600 to-blue-600"> 4821 </span>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-600 to-blue-600"> 48210 </span>
                 </h3>
-                <p class="mt-4 text-xl font-medium text-gray-900">Projects delivered</p>
-                <p class="text-base mt-0.5 text-gray-500">In last 6 years</p>
+                <p class="mt-4 text-xl font-medium text-gray-900">Services delivered</p>
+                <p class="text-base mt-0.5 text-gray-500">In last 10 years</p>
             </div>
 
             <div>
                 <h3 class="font-bold text-7xl">
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-600 to-blue-600"> 37+ </span>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-600 to-blue-600"> 370+ </span>
                 </h3>
                 <p class="mt-4 text-xl font-medium text-gray-900">Team members</p>
                 <p class="text-base mt-0.5 text-gray-500">Working for your success</p>
