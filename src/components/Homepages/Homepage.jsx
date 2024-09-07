@@ -1,17 +1,26 @@
 import React from 'react';
 import Banner from './Banner';
 import CustomerSpuport from './CustomerSpuport';
-import CeoSection from './CeoSection';
-import OurTeam from '../AboutUS/OurTeam';
+import ServiceCard1 from './ServiceCard1';
+import ServiceCard2 from './ServiceCard2';
+import Priceing from './Priceing';
+import HappyCustommer from './HappyCustommer';
+import CustommerReview from './CustommerReview';
+
 
 const Homepage = () => {
     return (
         <div>
             
-           <Banner/>
+            <Banner/>
+           <ServiceCard1/>
+           <ServiceCard2/>
+           <Priceing/>
+           <CustommerReview/>
            <CustomerSpuport></CustomerSpuport>
-           <CeoSection/>
-           <OurTeam/>
+           <HappyCustommer/>
+      
+           
         </div>
     );
 };
