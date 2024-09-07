@@ -23,6 +23,7 @@ console.log(slide);
 
   <div  className="carousel-item relative w-full">
 <Image
+ placeholder='blur' blurDataURL='/loadingImg.gif'
     alt='slide'
     width={2500}
     height={1500}

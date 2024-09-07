@@ -88,7 +88,7 @@ location.reload();
 >
   <div className="flex flex-row justify-between w-full">
     <div className="flex flex-row justify-between w-full">
-    <Image src={service?.image} alt={service?.name} width={100} height={100}></Image>
+    <Image  placeholder='blur' blurDataURL='/loadingImg.gif' src={service?.image} alt={service?.name} width={100} height={100}></Image>
 
       <div
         className="ms-3 flex justify-center items-center"

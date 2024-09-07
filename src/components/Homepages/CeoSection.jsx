@@ -72,7 +72,7 @@ const CeoSection = () => {
             </div>
 
             <div className="self-end lg:col-span-5">
-              <Image className="w-full mx-auto " src="/ceo.png" alt="Takibul hasan Mirza" width={500} height={500}/>
+              <Image  placeholder='blur' blurDataURL='/loadingImg.gif' className="w-full mx-auto " src="/ceo.png" alt="Takibul hasan Mirza" width={500} height={500}/>
             </div>
           </div>
         </div>

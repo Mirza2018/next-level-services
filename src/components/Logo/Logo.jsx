@@ -7,9 +7,10 @@ const Logo = () => {
 
   return (
     <Image
+     placeholder='blur' blurDataURL='/loadingImg.gif'
       alt="logo"
-      height="100"
-      width="100"
+      height={100}
+      width={100}
       src="logo.png"
     />
   );

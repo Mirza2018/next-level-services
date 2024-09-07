@@ -85,7 +85,8 @@ const ref=useRef()
 }
       </ul>
     </div>
-    <Link href='/' > <Image priority src='/logo.png' height={70}  width={70} alt='next-level-services' />  </Link>
+    <div className='w-20'>
+    <Link href='/' > <Image  placeholder='blur' blurDataURL='/loadingImg.gif' priority src='/logo.png' height={200}  width={200} alt='next-level-services' />  </Link></div>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
