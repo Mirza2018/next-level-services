@@ -10,7 +10,7 @@ const AboutPage = () => {
     return (
         <div>
             <CeoSection/>
-            <OurTeam/>
+            {/* <OurTeam/> */}
             <TeamMembers/>
             {/* <SelasNews/> */}
             <JoinUsTeam/>
