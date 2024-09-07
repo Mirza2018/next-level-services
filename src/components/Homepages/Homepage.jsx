@@ -1,6 +1,6 @@
 import React from 'react';
 import Banner from './Banner';
-import CustomerSpuport from './CustomerSpuport';
+import CustomerSuport from './CustomerSuport';
 import ServiceCard1 from './ServiceCard1';
 import ServiceCard2 from './ServiceCard2';
 import Priceing from './Priceing';
@@ -17,7 +17,7 @@ const Homepage = () => {
            <ServiceCard2/>
            <Priceing/>
            <CustommerReview/>
-           <CustomerSpuport/>
+           <CustomerSuport/>
            <HappyCustommer/>
       
            
