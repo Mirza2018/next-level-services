@@ -17,7 +17,7 @@ const Homepage = () => {
            <ServiceCard2/>
            <Priceing/>
            <CustommerReview/>
-           <CustomerSpuport></CustomerSpuport>
+           <CustomerSpuport/>
            <HappyCustommer/>
       
            
