@@ -1,14 +1,19 @@
 import { GetBlogs } from '@/Api/Api';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const Blog =async ({params}) => {
 
     const blogs=await GetBlogs()
     const blog=blogs.find(b=>b.id==params.id)
-        
+    // console.log(blogs.filter(b=>b.id==params.id));
+    
+    
+       
     return (
-        <section className="py-10 bg-white sm:py-16 lg:py-24">
+        <div className='grid grid-cols-5 bg-white text-black'>
+            <section className="py-10 bg-white sm:py-16 lg:py-24 col-span-4">
         <div className="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
             <div className="mx-auto text-left md:max-w-lg lg:max-w-2xl md:text-center">
                 <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl lg:leading-tight">
@@ -34,6 +39,46 @@ const Blog =async ({params}) => {
             </div>
         </div>
     </section>
+
+    <div className='mt-60'>
+
+
+
+<div>
+          <h3 className="text-lg font-semibold mb-4">Recent Posts</h3>
+
+
+
+{
+   blogs.filter(b=>b.id!=params.id).slice(0,4).map(blog=>(
+
+  <div className="mt-8" key={blog.id}>
+            <Link href={`/blogs/${blog.id}`} className="flex gap-4 items-start" prefetch={false}>
+              <Image
+                placeholder='blur' blurDataURL='/loadingImg.gif'
+                src={blog.image}
+                alt="Post Thumbnail"
+                width={80}
+                height={60}
+                className="rounded-md object-cover"
+                style={{ aspectRatio: "80/60", objectFit: "cover" }}
+              />
+              <div>
+                <h4 className="text-base font-semibold mb-1 text-black">{blog.title}</h4>
+                
+              </div>
+            </Link>
+           </div>
+
+  ))
+}
+        
+
+
+</div>
+</div>
+</div>
+        
     
     );
 };
