@@ -20,7 +20,8 @@ const Blog =async ({params}) => {
                     {blog?.title}
                     <span className="relative inline-block">
                         <span className="absolute inline-block w-full h-2 bg-yellow-300 bottom-1.5"></span>
-                        <span className="relative"> solve Your Problem </span>
+                      
+                        <span className="relative">Next Level Solution </span>
                     </span>
                 </h2>
             </div>
