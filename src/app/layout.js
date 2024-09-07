@@ -2,7 +2,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navber from "@/components/Shared/Navber";
 import Footer from "@/components/Shared/Footer";
-import Logo from "@/components/Logo/Logo";
 import { Space_Grotesk } from "next/font/google";
 
 
@@ -13,7 +12,7 @@ export const metadata = {
   title: "Next level services",
   description: "next-level-services",
   icons: {
-    icon: Logo
+    icon: "/logo.png"
   },
 };
 
