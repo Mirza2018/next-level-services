@@ -1,11 +1,11 @@
 export const Getservices=async()=>{
-const res=await fetch('http://127.0.0.1 : 3000/services/api')
+const res=await fetch(`${process.env.NEXT_PUBLIC_Base_URL}/services/api`)
 const data=res.json()
 return data
 }
 
 export const GetBlogs=async ()=>{
-    const res=await fetch('http://127.0.0.1 : 3000/blogs/api')
+    const res=await fetch(`${process.env.NEXT_PUBLIC_Base_URL}/blogs/api`)
     const data=res.json()
   return data
 }
