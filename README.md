@@ -1,9 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# **Next Level Servicing App**
 
-## Getting Started
+![Logo](/nh1.png) 
 
-First, run the development server:
 
+
+## **Table of Contents**
+
+- [About](#about)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+  - [Installation](#installation)
+  - [Running the App](#running-the-app)
+- [Project Structure](#project-structure)
+- [Screenshots](#screenshots)
+- [License](#License)
+- [Contact](#contact)
+
+## **About**
+
+This is a fully responsive service order app. Anyone can order service and see the previous order. It also has a blog page, which gives you solutions to your problems. This app is made with Next JS.
+
+## **Features**
+
+- Home page
+- Service Catalog 
+- Service choice By category
+- Order Cart Functionality
+- Checkout Process
+- Order Management (View Past Orders)
+- Blogs page 
+- Blogs site ber
+- About us
+- Join Team
+- Responsive Design
+
+
+## **Technologies Used**
+
+- **Frontend & Backend**: Next JS
+- **Database**: MongoDB 
+- **Styling**: Tailwind CSS , Daisyui
+- **JavaScript's popup**: SweetAlert2
+
+## **Getting Started**
+
+### **Installation**
+
+To get started with this project, clone the repository and install the dependencies:
+
+```bash
+git clone https://github.com/Mirza2018/next-level-services.git
+cd next-level-services
+npm install
+```
+
+### **Running the App**
 ```bash
 npm run dev
 # or
@@ -14,23 +66,61 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## **Project Structure**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```plaintext
+next-level-services/
+├── public/
+├── src/
+│   ├── Api/                 # All api link
+│   ├── app/                 
+│   │   ├── (dashboard)/     # Main Route.
+│   │   ├── globals.css/     # Main css.
+│   │   ├── layout.js/       # Main  body. 
+│   │   ├── loading.jsx/     # Loading page.
+│   │   └── page.js/         # Main page
+│   ├── components/          # Reusable components
+│   └── providers            # Provider
+├── .env.local               # Environment variables
+├── index.html         
+├── package.json
+└── tailwind.config.js
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## **Screenshots**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### **Running the App**
+![Home Page 1](/nh1.png) 
+![Home Page 2](/nh2.png) 
+![Home Page 3](/nh3.png) 
+![Home Page 4](/nh4.png) 
+![Home Page 5](/nh5.png) 
+#### **Services page**
+![Services page1](/nh1.png) 
+![Services page2](/nh2.png) 
+#### **Order Page**
+![Order Page 1](/no1.png) 
+#### **Cart Page**
+![cart Page 1](/nc1.png) 
+#### **Blogs Page**
+![blogs Page 1](/nb1.png) 
+![blogs Page 2](/nb2.png) 
+#### **About Page**
+![about Page 1](/na1.png) 
+![about Page 2](/na2.png) 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## **Contact**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+
+- **Name**: Takibul Hasan.
+- **Email**: [web.takib@gmail.com](https://mail.google.com/mail/u/0/?fs=1&to=web.takib@gmail.com&tf=cm)
+- **GitHub**: [Mirza2028](https://github.com/Mirza2018)
+- **LinkedIn**: [Takibul Hasan.](https://www.linkedin.com/in/takibul-hasan-619389242/)
+- **Facebook**: [Takibul Hasan.](https://www.facebook.com/takibul.hassan.56)
