@@ -1,6 +1,6 @@
 # **Next Level Servicing App**
 
-![Logo](/nh1.png) 
+![Logo](https://raw.githubusercontent.com/Mirza2018/next-level-services/main/public/nh1.png) 
 
 
 
@@ -14,7 +14,6 @@
   - [Running the App](#running-the-app)
 - [Project Structure](#project-structure)
 - [Screenshots](#screenshots)
-- [License](#License)
 - [Contact](#contact)
 
 ## **About**
@@ -92,24 +91,24 @@ next-level-services/
 ## **Screenshots**
 
 #### **Running the App**
-![Home Page 1](/nh1.png) 
-![Home Page 2](/nh2.png) 
-![Home Page 3](/nh3.png) 
-![Home Page 4](/nh4.png) 
-![Home Page 5](/nh5.png) 
+![Home Page 1](https://raw.githubusercontent.com/Mirza2018/next-level-services/main/public/nh1.png) 
+![Home Page 2](https://raw.githubusercontent.com/Mirza2018/next-level-services/main/public/nh2.png) 
+![Home Page 3](https://raw.githubusercontent.com/Mirza2018/next-level-services/main/public/nh3.png) 
+![Home Page 4](https://raw.githubusercontent.com/Mirza2018/next-level-services/main/public/nh4.png) 
+![Home Page 5](https://raw.githubusercontent.com/Mirza2018/next-level-services/main/public/nh5.png) 
 #### **Services page**
-![Services page1](/nh1.png) 
-![Services page2](/nh2.png) 
+![Services page1](https://raw.githubusercontent.com/Mirza2018/next-level-services/main/public/nh1.png) 
+![Services page2](https://raw.githubusercontent.com/Mirza2018/next-level-services/main/public/nh2.png) 
 #### **Order Page**
-![Order Page 1](/no1.png) 
+![Order Page 1](https://raw.githubusercontent.com/Mirza2018/next-level-services/main/public/no1.png) 
 #### **Cart Page**
-![cart Page 1](/nc1.png) 
+![cart Page 1](https://raw.githubusercontent.com/Mirza2018/next-level-services/main/public/nc1.png) 
 #### **Blogs Page**
-![blogs Page 1](/nb1.png) 
-![blogs Page 2](/nb2.png) 
+![blogs Page 1](https://raw.githubusercontent.com/Mirza2018/next-level-services/main/public/nb1.png) 
+![blogs Page 2](https://raw.githubusercontent.com/Mirza2018/next-level-services/main/public/nb2.png) 
 #### **About Page**
-![about Page 1](/na1.png) 
-![about Page 2](/na2.png) 
+![about Page 1](https://raw.githubusercontent.com/Mirza2018/next-level-services/main/public/na1.png) 
+![about Page 2](https://raw.githubusercontent.com/Mirza2018/next-level-services/main/public/na2.png) 
 
 
 
