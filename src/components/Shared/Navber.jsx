@@ -46,12 +46,12 @@ const ref=useRef()
       path:"/services"
     },
     {
-      title:"About",
-      path:"/about"
-    },
-    {
       title:"Blogs",
       path:"/blogs"
+    },
+    {
+      title:"About",
+      path:"/about"
     },
   ]
     return (

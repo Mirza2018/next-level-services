@@ -1,8 +1,13 @@
 import { NextResponse } from "next/server"
 
-export async function GET (request){
+export async function GET (){
+   try {
+     return NextResponse.json(blogs)
+   } catch (error) {
+    console.log(error);
+    return NextResponse.json({message:"no data found",error})
+   }
    
-    return NextResponse.json(blogs)
 }
 
 
