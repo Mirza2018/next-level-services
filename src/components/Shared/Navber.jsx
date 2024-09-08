@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { AiFillCloseCircle, AiTwotoneShopping } from "react-icons/ai";
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect,  useState } from 'react';
 import MyCart from '../MyCart/MyCart';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross1 } from "react-icons/rx";
@@ -14,25 +14,17 @@ const Navber = () => {
   const pathName=usePathname()
   const [items, setItems] = useState([]);
   const [open, setOpen] = useState(false);
+  const [cart, setCart] = useState(false);
 
   useEffect(()=>{
               const buy=JSON.parse(localStorage.getItem("nextorderDetails"))
               setItems(buy)
   },[])
 
+console.log(cart);
 
-  const toggleCart=()=>{
-if (ref.current.classList.contains('translate-x-full')){
-  ref.current.classList.remove('translate-x-full')
-  ref.current.classList.add('translate-x-0')
-}
-else if (! ref.current.classList.contains('translate-x-full')){
-  ref.current.classList.remove('translate-x-0')
-  ref.current.classList.add('translate-x-full')
-}
 
-  }
-const ref=useRef()
+
 
 
 
@@ -116,7 +108,7 @@ const ref=useRef()
     </ul>
   </div>
   <div className="navbar-end">
-    <div  onClick={toggleCart}  >
+    <div  onClick={()=>setCart(!cart)}  >
      <span className="relative inline-flex">
     <button type="button" className="inline-flex items-center px-4 py-2 font-semibold leading-6 text-sm shadow rounded-md text-sky-500 bg-white shadow-md transition ease-in-out duration-150  ring-1 ring-slate-900/10 dark:ring-slate-200/20" >
        <AiTwotoneShopping className='text-xl '/>
@@ -128,16 +120,20 @@ const ref=useRef()
     </span>
     }</span></div>
   </div>
-
-<div ref={ref} className='sideCart  flex  absolute -top-6 right-0  p-1 translate transition-transform translate-x-full z-10 bg-transparent '>
+{
+  cart &&  <div className='sideCart  flex  absolute -top-6 right-0  p-1  z-10 bg-transparent '>
         <div className=''>
-            <span onClick={toggleCart} className="absolute top-12 right-4 cursor-pointer text-2xl z-10">
+            <span onClick={()=>setCart(!cart)} className="absolute top-12 right-4 cursor-pointer text-2xl z-10">
               <AiFillCloseCircle/>
             </span>
           <MyCart/>
       </div>
 
 </div>
+
+}
+
+
 </div>
 
 </div>

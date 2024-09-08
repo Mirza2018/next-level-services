@@ -17,10 +17,10 @@ const MyCart = () => {
     
 
     return (
-        <section className="relative  bg-transparent w-60 lg:w-96 mt-10 ">
+        <section className="relative  bg-transparent w-60 lg:w-96 mt-10  ">
         <div className="w-full max-w-7xl px-4 md:px-5 lg-6 mx-auto h-[100vh] overflow-y-scroll scroll-smooth focus:scroll-auto ">
             
-                <h2 className="title font-manrope font-bold text-2xl leading-10 mb-8 text-center text-black bg-white pb-4">Order Details
+                <h2 className="title font-manrope font-bold text-2xl leading-10 mb-8 text-center text-black bg-white pb-4 -me-8">Order Details
                 </h2>
 
 
