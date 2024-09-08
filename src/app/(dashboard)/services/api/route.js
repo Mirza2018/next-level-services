@@ -1,20 +1,15 @@
 import connectDB from "@/Providers/mongoDB"
+import { NextResponse } from "next/server"
 
-// export const GET=async()=>{
-//     try {
 
-// return Response.json(data)
-//     } catch (error) {
-//         console.log(error);
-        
-//     }
-    
-
-// }
 export const GET= async()=>{
 
 const db= await connectDB()
 const data= db.collection('next-level-services')
-const services=await data.find().toArray()
-    return Response.json(services)
+    try {
+        const services=await data.find().toArray()
+    return NextResponse.json(services)
+    } catch (error) {
+        return NextResponse.json({message:"no data found",error})
+    }
     }
